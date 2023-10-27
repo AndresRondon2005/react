@@ -9,7 +9,6 @@ import Footer from "./atoms/footer";
 
 import Carro from './styles/carro.png'
 
-import './App.css';
 
 function App() {
     return (
