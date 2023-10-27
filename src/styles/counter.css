@@ -1,0 +1,53 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  /* Counter Box */
+  .counter-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Counter Display */
+  p {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Buttons */
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  button.increment {
+    background-color: #ee9af7;
+    color: #fff;
+  }
+  
+  button.increment:hover {
+    background-color: #ee9af7;
+  }
+  
+  button.decrement {
+    background-color: #de36f4;
+    color: #fff;
+  }
+  
+  button.decrement:hover {
+    background-color: #3659f4;
+  }
+  
